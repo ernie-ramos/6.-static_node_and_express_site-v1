@@ -1,5 +1,5 @@
 const express = require('express');
-const data = '/data.json';
+const { projects } = require('../6. static_node_and_express_site-v1/data.json');
 const path = require('path');
 
 const app = express();
@@ -11,7 +11,7 @@ app.use('/static', express.static('public'));
 
 // Home route
 app.get('/', (req, res) => {
-  res.render('index');
+  res.render('index', { projects });
 });
 
 // About route
@@ -20,7 +20,7 @@ app.get('/about', (req, res) => {
 });
 
 // Project route
-app.get('/project', (req, res) => {
+app.get('/project:id', (req, res) => {
   res.render('project');
 });
 

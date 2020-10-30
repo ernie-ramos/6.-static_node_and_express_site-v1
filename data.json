@@ -7,10 +7,7 @@
       "technologies": "JavaScript",
       "live_link": "",
       "github_link": "https://github.com/ernie-ramos/a_random_quote_generator-v1",
-      "image_urls": [
-        "public/images/random_quote1.png",
-        "public/images/random_quote2.png"
-      ]
+      "image_urls": ["/images/random_quote1.png", "/images/random_quote2.png"]
     },
     {
       "id": "1",
@@ -20,8 +17,8 @@
       "live_link": "",
       "github_link": "https://github.com/ernie-ramos/list_pagination_and_filtering-v1",
       "image_urls": [
-        "public/images/list_pagination1.png",
-        "public/images/list_pagination2.png"
+        "/images/list_pagination1.png",
+        "/images/list_pagination2.png"
       ]
     },
     {
@@ -32,8 +29,8 @@
       "live_link": "",
       "github_link": "https://github.com/ernie-ramos/interactive-form-v2",
       "image_urls": [
-        "public/images/interactive_form1.png",
-        "public/images/interactive_form2.png"
+        "/images/interactive_form1.png",
+        "/images/interactive_form2.png"
       ]
     },
     {
@@ -43,10 +40,7 @@
       "technologies": "JavaScript",
       "live_link": "",
       "github_link": "https://github.com/ernie-ramos/oop_game-v2",
-      "image_urls": [
-        "public/images/OOP_Game1.png",
-        "public/images/OOP_Game2.png"
-      ]
+      "image_urls": ["/images/OOP_Game1.png", "/images/OOP_Game2.png"]
     },
     {
       "id": "4",
@@ -55,7 +49,7 @@
       "technologies": "JavaScript",
       "live_link": "",
       "github_link": "https://github.com/ernie-ramos/5.-public_api_request-v1",
-      "image_urls": ["public/images/API_1.png", "public/images/API_2.png"]
+      "image_urls": ["/images/API_1.png", "/images/API_2.png"]
     }
   ]
 }
