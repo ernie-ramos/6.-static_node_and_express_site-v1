@@ -24,6 +24,16 @@ app.get('/project', (req, res) => {
   res.render('project');
 });
 
+// Error route
+app.get('/error', (req, res) => {
+  res.render('error');
+});
+
+// 404 route
+app.get('/page-not-found', (req, res) => {
+  res.render('page-not-found');
+});
+
 app.listen(3000, () => {
   console.log('The application is running on Localhost:3000!');
 });
